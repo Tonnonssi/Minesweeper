@@ -46,7 +46,7 @@ body {
     cursor: pointer;
  
     /* Default color for unrevealed tiles */
-    background-image: url('../pics/unrevealed.png');
+    background-image: url('./pics/unrevealed.png');
     background-size: cover; /* Makes the image cover the entire cell */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center;
