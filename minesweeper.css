@@ -1,0 +1,169 @@
+/* Styles.css */
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+.board {
+    display: inline-block;
+    margin: 20px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgrey;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* width: fit-content; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mines-counter, .timer {
+    background-color: black;
+    font-family: 'Digital-7', sans-serif;
+    color: red;
+    font-size: 2em;
+    width: 60px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.unrevealedCell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+ 
+    /* Default color for unrevealed tiles */
+    background-image: url('./pics/unrevealed.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+ 
+    /* Default color for unrevealed tile text */
+    color: #333;
+}
+.revealed {
+    /* Color for revealed tiles */
+    background-color: #ccc;
+ 
+    /* Color for revealed tile text */
+    color: #000;
+}
+.mine {
+    /* Color for mines */
+    background-image: url('./pics/mine.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.n0 {
+    background-image: url('./pics/zero.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.n1 {
+    background-image: url('./pics/one.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.n2 {
+    background-image: url('./pics/two.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+.n3 {
+    background-image: url('./pics/three.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.n4 {
+    background-image: url('./pics/four.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.n5 {
+    background-image: url('./pics/five.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+.n6 {
+    background-image: url('./pics/six.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.n7 {
+    background-image: url('./pics/seven.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.n8 {
+    background-image: url('./pics/eight.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.flagged {
+    background-image: url('./pics/flag.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.reset {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: url('./pics/reset.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.gg {
+    width: 40px;
+    background-image: url('./pics/gg.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
+.oof {
+    width: 40px;
+    background-image: url('./pics/oof.png');
+    background-size: cover; /* Makes the image cover the entire cell */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+}
+
