@@ -138,8 +138,8 @@ body {
 }
 
 .reset {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border: 1px solid #ccc;
     display: inline-block;
     text-align: center;
@@ -152,7 +152,7 @@ body {
 }
 
 .gg {
-    width: 40px;
+    width: 35px;
     background-image: url('./pics/gg.png');
     background-size: cover; /* Makes the image cover the entire cell */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -160,10 +160,42 @@ body {
 }
 
 .oof {
-    width: 40px;
+    width: 35px;
     background-image: url('./pics/oof.png');
     background-size: cover; /* Makes the image cover the entire cell */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center;
 }
 
+.helper {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+ 
+    background-image: url('./pics/AI.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+    /* Ensure text is smaller and visible */
+    font-size: 5px; /* Small font size */
+    color: #333;
+    line-height: 40px; /* Center text vertically */
+}
+
+.helper-active {
+    font-size: 15px; /* Desired font size */
+    text-align: center; /* Center horizontally */
+    display: center; 
+    align-items: center; /* Center vertically */
+    justify-content: center;
+}
+
+.unrevealedCell.helper-active {
+    /* Default text color will be applied dynamically in JS */
+    color: initial; 
+}

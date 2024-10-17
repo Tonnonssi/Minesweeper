@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minesweeper Game</title>
     <link rel="stylesheet" href="minesweeper.css">
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
 </head>
 <body>
     <h1>Minesweeper</h1>
-    <div id="level-selector">
-        <label for="level">Select Level:</label>
-        <select id="level" name="level">
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="expert">Expert</option>
-        </select>
-    </div>
+    <h3>Level : Easy</h3>
+    <h3 style="border: 2px solid; padding: 10px; width: 400px; margin: 0 auto; text-align: center;">
+       [ On AI Mode ]<br>
+        <span style="color:blue;">BLUE</span> indicates a safe cell, <br>while 
+        <span style="color:red;">RED</span> suggests a cell where a mine is expected.
+      </h3>
     <br>
     <div id="header-bar">
         <div id="mines-counter">99</div>
         <div id="reset"></div>
+        <div id="helper"></div>
         <div id="timer">000</div>
     </div>
     <div id="gameBoard"></div>
